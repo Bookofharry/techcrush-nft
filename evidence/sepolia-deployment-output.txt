@@ -1,0 +1,31 @@
+No files changed, compilation skipped
+Script ran successfully.
+
+== Return ==
+nft: contract TechcrushNFT 0x4ea691b226EbF6Fe4D0683149BeEd9e7d1762BDb
+
+== Logs ==
+  Techcrush NFT deployed at: 0x4ea691b226EbF6Fe4D0683149BeEd9e7d1762BDb
+  Contract owner: 0xc5e058e6B8BeAC6EFa667e958D8cA0E3EE36a292
+  Chain ID: 11155111
+
+## Setting up 1 EVM.
+
+==========================
+
+Chain 11155111
+
+Estimated max fee per gas: 1.000000014 gwei
+Estimated base fee per gas: 0.000000014 gwei
+Estimated max priority fee per gas: 0.999999986 gwei
+
+Estimated total gas used for script: 1593507
+
+Estimated amount required: 0.001593507022309098 ETH
+
+==========================
+
+Transactions saved to: C:/Users/hp/Desktop/MVPS/New folder/techcrush-nft/broadcast\DeployTechcrushNFT.s.sol\11155111\run-latest.json
+
+Sensitive values saved to: C:/Users/hp/Desktop/MVPS/New folder/techcrush-nft/cache\DeployTechcrushNFT.s.sol\11155111\run-latest.json
+

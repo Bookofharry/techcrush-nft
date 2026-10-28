@@ -1,0 +1,58 @@
+No files changed, compilation skipped
+forge.exe : 2026-10-27T14:16:02.802716Z  WARN foundry_evm_traces::debug::sources: failed to parse contract definitions 
+for lib/forge-std/src/StdAssertions.sol
+At line:6 char:1
++ & 'C:\Users\hp\.foundry\bin\forge.exe' script script/MintTechcrushNFT ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-10-27T14:1...dAssertions.sol:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-10-27T14:16:02.803954Z  WARN foundry_evm_traces::debug::sources: failed to parse contract definitions for 
+lib/forge-std/src/StdError.sol
+2026-10-27T14:16:02.804173Z  WARN foundry_evm_traces::debug::sources: failed to parse contract definitions for 
+lib/forge-std/src/StdInvariant.sol
+2026-10-27T14:16:02.805189Z  WARN foundry_evm_traces::debug::sources: failed to parse contract definitions for 
+lib/forge-std/src/StdToml.sol
+2026-10-27T14:16:02.805443Z  WARN foundry_evm_traces::debug::sources: failed to parse contract definitions for 
+lib/forge-std/src/Test.sol
+2026-10-27T14:16:02.811317Z  WARN foundry_evm_traces::debug::sources: failed to parse contract definitions for 
+script/DeployTechcrushNFT.s.sol
+2026-10-27T14:16:02.811744Z  WARN foundry_evm_traces::debug::sources: failed to parse contract definitions for 
+test/TechcrushNFT.t.sol
+2026-10-27T14:16:02.832666Z  WARN evm::traces::external: etherscan config not found
+Script ran successfully.
+
+== Return ==
+tokenId: uint256 1
+
+== Logs ==
+  Minted token ID: 1
+  NFT owner: 0x70997970C51812dc3A010C7d01b50e0d17dc79C8
+  Metadata URI: ipfs://local-test-only/1.json
+
+## Setting up 1 EVM.
+2026-10-27T14:16:04.331233Z  WARN evm::traces::external: etherscan config not found
+
+==========================
+
+Chain 31337
+
+Estimated max fee per gas: 2.000000001 gwei
+Estimated base fee per gas: 1 gwei
+Estimated max priority fee per gas: 0.000000001 gwei
+
+Estimated total gas used for script: 176345
+
+Estimated amount required: 0.000352690000176345 ETH
+
+==========================
+
+
+==========================
+
+ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
+
+Transactions saved to: C:/Users/hp/Desktop/MVPS/New folder/techcrush-nft/broadcast\MintTechcrushNFT.s.sol\31337\run-latest.json
+
+Sensitive values saved to: C:/Users/hp/Desktop/MVPS/New folder/techcrush-nft/cache\MintTechcrushNFT.s.sol\31337\run-latest.json
+

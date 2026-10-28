@@ -1,0 +1,18 @@
+# Compiler files
+cache/
+out/
+
+# Commonly ignored directories
+.logs/
+.ignore/
+
+# Generated transaction bundles; verified public results live in evidence/.
+broadcast/
+
+# Docs
+docs/
+
+# Dotenv file
+.env
+.env.*
+!.env.example

@@ -1,0 +1,10 @@
+﻿{
+    "network":  "Ethereum Sepolia",
+    "chainId":  11155111,
+    "contractAddress":  "0x62DEd3949ED5EF6af1784Cace3393e504B9656D9",
+    "transactionHash":  "0xf4b789bcd502abd2bc6793480e7cdb77bc5819d0938502485dd74e1f7eabe22d",
+    "owner":  "0xc5e058e6B8BeAC6EFa667e958D8cA0E3EE36a292",
+    "receiptStatus":  "0x1",
+    "blockNumber":  "0xb73e9a",
+    "explorerUrl":  "https://sepolia.etherscan.io/tx/0xf4b789bcd502abd2bc6793480e7cdb77bc5819d0938502485dd74e1f7eabe22d"
+}

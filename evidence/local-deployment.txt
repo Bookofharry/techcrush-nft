@@ -1,0 +1,58 @@
+No files changed, compilation skipped
+forge.exe : 2026-10-27T14:15:45.625649Z  WARN foundry_evm_traces::debug::sources: failed to parse contract definitions 
+for lib/forge-std/src/StdAssertions.sol
+At line:2 char:1
++ & 'C:\Users\hp\.foundry\bin\forge.exe' script script/DeployTechcrushN ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-10-27T14:1...dAssertions.sol:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-10-27T14:15:45.627178Z  WARN foundry_evm_traces::debug::sources: failed to parse contract definitions for 
+lib/forge-std/src/StdError.sol
+2026-10-27T14:15:45.627507Z  WARN foundry_evm_traces::debug::sources: failed to parse contract definitions for 
+lib/forge-std/src/StdInvariant.sol
+2026-10-27T14:15:45.629324Z  WARN foundry_evm_traces::debug::sources: failed to parse contract definitions for 
+lib/forge-std/src/StdToml.sol
+2026-10-27T14:15:45.629825Z  WARN foundry_evm_traces::debug::sources: failed to parse contract definitions for 
+lib/forge-std/src/Test.sol
+2026-10-27T14:15:45.638005Z  WARN foundry_evm_traces::debug::sources: failed to parse contract definitions for 
+script/MintTechcrushNFT.s.sol
+2026-10-27T14:15:45.638510Z  WARN foundry_evm_traces::debug::sources: failed to parse contract definitions for 
+test/TechcrushNFT.t.sol
+2026-10-27T14:15:45.673987Z  WARN evm::traces::external: etherscan config not found
+Script ran successfully.
+
+== Return ==
+nft: contract TechcrushNFT 0x5FbDB2315678afecb367f032d93F642f64180aa3
+
+== Logs ==
+  Techcrush NFT deployed at: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+  Contract owner: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+  Chain ID: 31337
+
+## Setting up 1 EVM.
+2026-10-27T14:15:48.139345Z  WARN evm::traces::external: etherscan config not found
+
+==========================
+
+Chain 31337
+
+Estimated max fee per gas: 2.000000001 gwei
+Estimated base fee per gas: 1 gwei
+Estimated max priority fee per gas: 0.000000001 gwei
+
+Estimated total gas used for script: 1593507
+
+Estimated amount required: 0.003187014001593507 ETH
+
+==========================
+
+
+==========================
+
+ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
+
+Transactions saved to: C:/Users/hp/Desktop/MVPS/New folder/techcrush-nft\broadcast\DeployTechcrushNFT.s.sol\31337\run-latest.json
+
+Sensitive values saved to: C:/Users/hp/Desktop/MVPS/New folder/techcrush-nft/cache\DeployTechcrushNFT.s.sol\31337\run-latest.json
+

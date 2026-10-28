@@ -1,0 +1,18 @@
+No files changed, compilation skipped
+
+Ran 12 tests for test/TechcrushNFT.t.sol:TechcrushNFTTest
+[PASS] testCollectionIdentityAndInitialOwner() (gas: 38952)
+[PASS] testEmptyMetadataRevertsWithoutConsumingTokenId() (gas: 166793)
+[PASS] testMintAssignsOwnershipAndExactMetadataURI() (gas: 163226)
+[PASS] testMultipleMintsKeepSeparateMetadata() (gas: 278167)
+[PASS] testNewContractOwnerControlsMinting() (gas: 195385)
+[PASS] testNonexistentTokenHasNoURI() (gas: 12924)
+[PASS] testOnlyOwnerCanMint() (gas: 40494)
+[PASS] testSafeMintToReceiverContract() (gas: 288742)
+[PASS] testTokenOwnerCanTransferWithoutBeingContractOwner() (gas: 216112)
+[PASS] testUnapprovedAccountCannotTransfer() (gas: 169589)
+[PASS] testUnsafeReceiverRevertsEntireMint() (gas: 337167)
+[PASS] testZeroRecipientRevertsWithoutConsumingTokenId() (gas: 187929)
+Suite result: ok. 12 passed; 0 failed; 0 skipped; finished in 3.10ms (15.27ms CPU time)
+
+Ran 1 test suite in 6.43ms (3.10ms CPU time): 12 tests passed, 0 failed, 0 skipped (12 total tests)
