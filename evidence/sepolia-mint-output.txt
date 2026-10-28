@@ -1,0 +1,15 @@
+Mint Techcrush #1 on Ethereum Sepolia.
+Contract: 0x62DEd3949ED5EF6af1784Cace3393e504B9656D9
+Recipient: 0xc5e058e6B8BeAC6EFa667e958D8cA0E3EE36a292
+Metadata: https://raw.githubusercontent.com/Bookofharry/techcrush-nft/4ffe2ffcadae3309d243fbc157e98c1e76b90ab3/metadata/1.json
+Node gas estimate: 914495; limit with margin: 1097394
+Waiting for mint transaction: 0xac5697902f1ff96f482a2388dc1f39f4adc864ab012ce42703ea46278877eb80
+
+NFT MINTING VERIFIED SUCCESSFUL
+Network: Ethereum Sepolia (11155111)
+NFT: Techcrush #1 / Token ID: 1
+Contract: 0x62DEd3949ED5EF6af1784Cace3393e504B9656D9
+Owner: 0xc5e058e6B8BeAC6EFa667e958D8cA0E3EE36a292
+Transaction: 0xac5697902f1ff96f482a2388dc1f39f4adc864ab012ce42703ea46278877eb80
+Metadata URI verified against the prepared metadata.
+Explorer: https://sepolia.etherscan.io/tx/0xac5697902f1ff96f482a2388dc1f39f4adc864ab012ce42703ea46278877eb80

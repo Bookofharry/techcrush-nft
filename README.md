@@ -9,8 +9,9 @@ This is a student project, not an official Techcrush collectible.
 
 - Contract: [0x62DEd3949ED5EF6af1784Cace3393e504B9656D9](https://sepolia.etherscan.io/address/0x62DEd3949ED5EF6af1784Cace3393e504B9656D9)
 - Successful deployment: [transaction receipt](https://sepolia.etherscan.io/tx/0xf4b789bcd502abd2bc6793480e7cdb77bc5819d0938502485dd74e1f7eabe22d)
+- Successful mint (Token #1): [transaction receipt](https://sepolia.etherscan.io/tx/0xac5697902f1ff96f482a2388dc1f39f4adc864ab012ce42703ea46278877eb80)
 - Network: Ethereum Sepolia, chain ID 11155111.
-- Minting status is recorded in `evidence/sepolia-mint.json` once complete.
+- Complete records saved in `evidence/sepolia-deployment.json` and `evidence/sepolia-mint.json`.
 
 ## What the contract does
 

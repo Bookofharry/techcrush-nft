@@ -32,13 +32,11 @@ Verified on 27 October 2026 using Foundry 1.8.5 and Solidity 0.8.30.
 - Deployed contract: `0x62DEd3949ED5EF6af1784Cace3393e504B9656D9`.
 - Successful transaction:
   `0xf4b789bcd502abd2bc6793480e7cdb77bc5819d0938502485dd74e1f7eabe22d`.
-- `totalMinted()` was independently checked as 0 before preparing the mint.
-- A public Sepolia RPC endpoint responded with the expected chain ID 11155111.
+- Token #1 minted successfully on 28 October 2026:
+  - Transaction: `0xac5697902f1ff96f482a2388dc1f39f4adc864ab012ce42703ea46278877eb80`
+  - Token ID: `1`
+  - Owner: `0xc5e058e6B8BeAC6EFa667e958D8cA0E3EE36a292`
+  - Verified on-chain via `ownerOf(1)` and `tokenURI(1)`.
+  - Receipt status: `0x1` (Success).
 
-Still pending: actual screenshots,
-artwork/metadata hosting, Sepolia minting, GitHub publishing,
-Google Doc, LMS submission.
-
-The local deployment/minting logs are development checks, not Sepolia evidence.
-The metadata template is not ready to mint until its artwork CID is replaced
-and the completed metadata is hosted and checked.
+Still pending: taking screenshots of the outputs, assembling the Google Doc, and LMS submission.

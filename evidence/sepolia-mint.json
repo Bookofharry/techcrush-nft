@@ -1,0 +1,13 @@
+﻿{
+    "network":  "Ethereum Sepolia",
+    "chainId":  11155111,
+    "contractAddress":  "0x62DEd3949ED5EF6af1784Cace3393e504B9656D9",
+    "transactionHash":  "0xac5697902f1ff96f482a2388dc1f39f4adc864ab012ce42703ea46278877eb80",
+    "tokenId":  1,
+    "owner":  "0xc5e058e6B8BeAC6EFa667e958D8cA0E3EE36a292",
+    "metadataUri":  "https://raw.githubusercontent.com/Bookofharry/techcrush-nft/4ffe2ffcadae3309d243fbc157e98c1e76b90ab3/metadata/1.json",
+    "imageUri":  "https://raw.githubusercontent.com/Bookofharry/techcrush-nft/7d9c32b81ac6844e4e8b9dd53cee0221cd4c551d/assets/techcrush.png",
+    "receiptStatus":  "0x1",
+    "blockNumber":  "0xb74033",
+    "explorerUrl":  "https://sepolia.etherscan.io/tx/0xac5697902f1ff96f482a2388dc1f39f4adc864ab012ce42703ea46278877eb80"
+}

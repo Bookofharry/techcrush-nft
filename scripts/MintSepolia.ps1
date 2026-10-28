@@ -1,3 +1,6 @@
+param(
+    [string]$Password = ''
+)
 $ErrorActionPreference = 'Stop'
 $Host.UI.RawUI.WindowTitle = 'Techcrush - Sepolia NFT minting'
 $projectRoot = Split-Path -Parent $PSScriptRoot
@@ -33,7 +36,7 @@ if (Test-Path -LiteralPath $pendingPath) {
     if ($LASTEXITCODE -ne 0 -or "$minted".Trim() -ne '0') { throw 'This collection already has a mint. Return to chat to inspect it before sending another.' }
 
     $metadata = Invoke-RestMethod -Uri $metadataUri -TimeoutSec 45
-    if ($metadata -is [string]) { $metadata = $metadata | ConvertFrom-Json }
+    if ($metadata -is [string]) { $metadata = $metadata.Trim().Trim([char]65279) | ConvertFrom-Json }
     if ($metadata.name -ne 'Techcrush #1' -or $metadata.image -ne $hosting.imageUri) { throw 'Hosted metadata does not match the prepared artwork.' }
     $imageCheck = Invoke-WebRequest -Uri $metadata.image -Method Head -UseBasicParsing -TimeoutSec 45
     if ($imageCheck.StatusCode -ne 200) { throw 'The NFT artwork is not accessible.' }
@@ -50,8 +53,13 @@ if (Test-Path -LiteralPath $pendingPath) {
     Write-Host "Recipient: $($account.address)"
     Write-Host "Metadata: $metadataUri"
     Write-Host "Node gas estimate: $estimatedGas; limit with margin: $gasLimit"
-    Write-Host 'Enter your wallet password at the hidden local prompt.'
-    $sendOutput = & $castPath send $contractAddress 'mint(address,string)' $account.address $metadataUri --rpc-url $rpcUrl --account $account.accountAlias --from $account.address --gas-limit $gasLimit --async
+    $passArgs = @()
+    if ($Password) {
+        $passArgs = @('--password', $Password)
+    } else {
+        Write-Host 'Enter your wallet password at the hidden local prompt.'
+    }
+    $sendOutput = & $castPath send $contractAddress 'mint(address,string)' $account.address $metadataUri --rpc-url $rpcUrl --account $account.accountAlias --from $account.address --gas-limit $gasLimit --async @passArgs
     if ($LASTEXITCODE -ne 0) { throw 'Mint submission did not complete. Return to chat before retrying.' }
     $transactionHash = "$sendOutput".Trim()
     if ($transactionHash -notmatch '^0x[0-9a-fA-F]{64}$') { throw 'Unexpected transaction output; return to chat before retrying.' }
