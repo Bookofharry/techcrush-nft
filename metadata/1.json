@@ -1,0 +1,19 @@
+﻿{
+    "name":  "Techcrush #1",
+    "description":  "An original tech-themed NFT created for my Techcrush learning assignment. Circuit pathways and a crystalline core celebrate curiosity and building with technology. Student project; not an official Techcrush collectible.",
+    "image":  "https://raw.githubusercontent.com/Bookofharry/techcrush-nft/7d9c32b81ac6844e4e8b9dd53cee0221cd4c551d/assets/techcrush.png",
+    "attributes":  [
+                       {
+                           "trait_type":  "Theme",
+                           "value":  "Technology and learning"
+                       },
+                       {
+                           "trait_type":  "Collection",
+                           "value":  "Techcrush"
+                       },
+                       {
+                           "trait_type":  "Artwork",
+                           "value":  "AI-generated digital illustration"
+                       }
+                   ]
+}
